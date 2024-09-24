@@ -1,3 +1,5 @@
 # wwingyou's .dotfiles
 
-run `setup.sh` to make symlinks.
+## Setup
+
+Clone this repository and run `setup.sh` to make symlinks.
