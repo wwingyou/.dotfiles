@@ -1,0 +1,1 @@
+{"title":"hangle","rules":[{"description":"caps-lock -> F18","manipulators":[{"type":"basic","from":{"key_code":"caps_lock"},"to":[{"repeat":true,"key_code":"f18"}]}]},{"description":"left command + caps-lock -> caps-lock","manipulators":[{"type":"basic","from":{"modifiers":{"mandatory":["left_gui"]},"key_code":"caps_lock"},"to":[{"repeat":true,"key_code":"caps_lock"}]}]}]}
