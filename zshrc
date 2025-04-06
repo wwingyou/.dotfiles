@@ -170,3 +170,9 @@ alias daily="tmuxifier load-session daily"
 
 # Set default editor to nvim
 export EDITOR=nvim
+
+alias dls="ll | grep ^d"
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+. "$HOME/.local/bin/env"
