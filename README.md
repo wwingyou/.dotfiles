@@ -3,3 +3,19 @@
 ## Setup
 
 Clone this repository and run `setup.sh` to make symlinks.
+
+## Dependencies
+
+- [fzf](https://github.com/junegunn/fzf)
+- [tmux](https://github.com/tmux/tmux)
+- [tmuxifier](https://github.com/jimeh/tmuxifier)
+- [ghostty](https://ghostty.org/)
+- [neovim](https://neovim.io/)
+- [min](https://minbrowser.org/)
+
+### MacOS Only
+
+- [oh my zsh](https://ohmyz.sh/)
+- [karanier](https://karabiner-elements.pqrs.org/)
+- [amethyst](https://github.com/ianyh/Amethyst)
+- [raycast](https://www.raycast.com/)
