@@ -1,0 +1,11 @@
+{
+  "restartNow":false,
+  "darkThemeIsActive":true,
+  "userscriptsEnabled":true,
+  "customUserAgent":null,
+  "darkMode":1,
+  "keyMap":{"goBack":"mod+[","goForward":"mod+]","switchToNextTask":"mod+left","switchToPreviousTask":"mod+right","switchToNextTab":"option+k","switchToPreviousTab":"option+j","gotoLastTab":"mod+8","gotoFirstTab":"shift+mod+8","enterEditMode":"mod+l","moveTabLeft":"option+mod+shift+left","reload":["mod+r","f5"],"reloadIgnoringCache":"mod+shift+r"},
+  "startupTabOption":1,
+  "newWindowOption":2,
+  "translatePrivacyPrompt":true
+}
