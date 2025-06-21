@@ -1,6 +1,12 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+USERNAME=$(whoami)
+echo >> /Users/$USERNAME/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USERNAME/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+source /Users/$USERNAME/.zprofile
+
 # Install tmux tokyonight dependencies
 # See: https://github.com/janoamaral/tokyo-night-tmux?tab=readme-ov-file#requirements
 brew install --cask font-monaspace-nerd-font font-noto-sans-symbols-2
