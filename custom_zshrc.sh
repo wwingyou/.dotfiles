@@ -21,6 +21,9 @@ if type rg &> /dev/null; then
   export FZF_DEFAULT_OPTS='-m'
 fi
 
+# Tmuxifier setting
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+
 # fzf shell integration
 source <(fzf --zsh)
 

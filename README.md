@@ -6,12 +6,14 @@ Clone this repository and run `setup.sh` to make symlinks.
 
 ## Dependencies
 
+- [homebrew](https://brew.sh/)
 - [fzf](https://github.com/junegunn/fzf)
 - [tmux](https://github.com/tmux/tmux)
 - [tmuxifier](https://github.com/jimeh/tmuxifier)
 - [ghostty](https://ghostty.org/)
 - [neovim](https://neovim.io/)
 - [min](https://minbrowser.org/)
+- [httpie](https://httpie.io/)
 
 ### MacOS Only
 
