@@ -9,6 +9,7 @@ brew install fzf tmux neovim
 brew install --cask ghostty
 brew install --cask raycast
 brew install --cask amethyst
+curl -s "https://get.sdkman.io" | bash
 echo "[IMPORTANT] You must give Amethyst accessability permission."
 echo "Go to System settings and find Privacy & Security tab, Privacy -> Accessibilty."
 

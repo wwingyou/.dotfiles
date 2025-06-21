@@ -38,6 +38,7 @@ where you installed Min.
 - [neovim](https://neovim.io/)
 - [min](https://minbrowser.org/)
 - [httpie](https://httpie.io/)
+- [sdkman](https://sdkman.io/)
 
 ### MacOS Only
 
