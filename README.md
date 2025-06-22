@@ -2,6 +2,17 @@
 
 ## Setup
 
+### Clone Repository
+
+This repository includes several git submodules. To get all submodules on local
+machine, run following command.
+
+```bash
+git clone https://github.com/wwingyou/.dotfiles.git
+git submodule init
+git submodule update
+```
+
 ### Install Dependencies
 
 This dotfiles need many dependencies. To install all of them, Run
