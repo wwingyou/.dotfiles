@@ -38,6 +38,11 @@ Min browser should be conducted manually.
 Go to `min` directory, and override the settings and userscript to the location
 where you installed Min.
 
+### Apply tmux theme
+
+Tmux theme is not applied at first. Update theme by pressing `ctrl+f+I` inside
+the tmux session.
+
 ## Dependencies
 
 ### Common
