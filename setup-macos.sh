@@ -11,10 +11,9 @@ fi
 if [ ! -L "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting" ]; then
   ln -s $DIR/zsh-plugins/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 fi
-if [ ! -L "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/spaceship-zsh-theme" ]; then
+if [ ! -L "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/spaceship.zsh-theme" ]; then
   ln -s $DIR/zsh-plugins/spaceship-prompt/spaceship.zsh-theme ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/spaceship.zsh-theme
 fi
 
 # Append zshrc custom setting load script
-echo "\n# zshrc custom settings\nsource .custom_zshrc.sh" >> ~/.zshrc
-
+echo "\n# zshrc custom settings\nsource ~/.custom_zshrc.sh" >> ~/.zshrc
