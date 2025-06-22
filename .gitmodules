@@ -4,3 +4,12 @@
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git
+[submodule "zsh-plugins/zsh-autosuggesstions"]
+	path = zsh-plugins/zsh-autosuggesstions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "zsh-plugins/zsh-syntax-highlighting"]
+	path = zsh-plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "zsh-plugins/spaceship-prompt"]
+	path = zsh-plugins/spaceship-prompt
+	url = https://github.com/spaceship-prompt/spaceship-prompt.git
