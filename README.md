@@ -44,7 +44,6 @@ where you installed Min.
 - [homebrew](https://brew.sh/)
 - [fzf](https://github.com/junegunn/fzf)
 - [tmux](https://github.com/tmux/tmux)
-- [tmuxifier](https://github.cmanagedom/jimeh/tmuxifier)
 - [ghostty](https://ghostty.org/)
 - [neovim](https://neovim.io/)
 - [min](https://minbrowser.org/)
