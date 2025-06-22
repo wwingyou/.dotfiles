@@ -54,6 +54,7 @@ where you installed Min.
 ### MacOS Only
 
 - [oh my zsh](https://ohmyz.sh/)
+- [spaceship(zsh theme)](https://github.com/pascaldevink/spaceship-zsh-theme)
 - [karanier](https://karabiner-elements.pqrs.org/)
 - [amethyst](https://github.com/ianyh/Amethyst)
 - [raycast](https://www.raycast.com/)
