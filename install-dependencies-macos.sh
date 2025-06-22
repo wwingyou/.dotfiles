@@ -1,6 +1,7 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+DIR="$(cd "$(dirname "$0")" && pwd)"
 USERNAME=$(whoami)
 echo >> /Users/$USERNAME/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USERNAME/.zprofile
@@ -18,6 +19,7 @@ brew install --cask amethyst
 curl -s "https://get.sdkman.io" | bash
 echo "[IMPORTANT] You must give Amethyst accessability permission."
 echo "Go to System settings and find Privacy & Security tab, Privacy -> Accessibilty."
+git clone https://github.com/tmux-plugins/tpm $DIR/tmux/plugins/tpm
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -25,4 +27,3 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Manual installations
 open "https://minbrowser.org/"
 open "https://karabiner-elements.pqrs.org/"
-
