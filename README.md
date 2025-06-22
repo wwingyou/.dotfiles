@@ -9,6 +9,7 @@ machine, run following command.
 
 ```bash
 git clone https://github.com/wwingyou/.dotfiles.git
+cd .dotfiles
 git submodule init
 git submodule update
 ```
