@@ -24,9 +24,6 @@ git clone https://github.com/tmux-plugins/tpm $DIR/tmux/plugins/tpm
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# Install Spaceship theme
-curl -o - https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/install.zsh | zsh
-
 # Manual installations
 open "https://minbrowser.org/"
 open "https://karabiner-elements.pqrs.org/"
