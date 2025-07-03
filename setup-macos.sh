@@ -5,6 +5,8 @@ if [ ! -L "$HOME/.config/karabiner" ]; then ln -s $DIR/karabiner ~/.config/karab
 if [ ! -L "$HOME/.tmux" ]; then ln -s $DIR/tmux ~/.tmux; fi
 if [ ! -L "$HOME/.tmux.conf" ]; then ln -s $DIR/tmux.conf ~/.tmux.conf; fi
 if [ ! -L "$HOME/.custom_zshrc.sh" ]; then ln -s $DIR/custom_zshrc.sh ~/.custom_zshrc.sh; fi
+if [ ! -L "$HOME/.hammerspoon" ]; then ln -s $DIR/hammerspoon ~/.hammerspoon; fi
+if [ ! -L "$HOME/.ideavimrc" ]; then ln -s $DIR/ideavimrc ~/.ideavimrc; fi
 if [ ! -L "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]; then
   ln -s $DIR/zsh-plugins/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 fi

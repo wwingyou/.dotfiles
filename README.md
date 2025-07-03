@@ -43,6 +43,16 @@ where you installed Min.
 Tmux theme is not applied at first. Update theme by pressing `ctrl+f+I` inside
 the tmux session.
 
+### IntelliJ Settings
+
+To apply Intellij Keymap, copy `intelliJ/MacOS-VIM.xml` file to the
+`Users/{username}/Library/Application\
+Support/JetBrains/{IntelliJ_Version}/keymaps`.
+
+To enable all vim functionallities, Install
+[IdeaVim-EasyMotion](https://plugins.jetbrains.com/plugin/13360-ideavim-easymotion)
+and [Which-Key](https://plugins.jetbrains.com/plugin/15976-which-key) plugins.
+
 ## Dependencies
 
 ### Common
@@ -64,3 +74,4 @@ the tmux session.
 - [karanier](https://karabiner-elements.pqrs.org/)
 - [amethyst](https://github.com/ianyh/Amethyst)
 - [raycast](https://www.raycast.com/)
+- [hammerspoon](http://www.hammerspoon.org/)

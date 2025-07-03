@@ -27,3 +27,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Manual installations
 open "https://minbrowser.org/"
 open "https://karabiner-elements.pqrs.org/"
+open "https://github.com/Hammerspoon/hammerspoon/releases/latest"
