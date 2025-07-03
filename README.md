@@ -47,7 +47,8 @@ the tmux session.
 
 To apply Intellij Keymap, copy `intelliJ/MacOS-VIM.xml` file to the
 `Users/{username}/Library/Application\
-Support/JetBrains/{IntelliJ_Version}/keymaps`.
+Support/JetBrains/{IntelliJ_Version}/keymaps`. Then select `MacOS-VIM` keymap
+preset from IntelliJ settings -> Keymap.
 
 To enable all vim functionallities, Install
 [IdeaVim-EasyMotion](https://plugins.jetbrains.com/plugin/13360-ideavim-easymotion)
